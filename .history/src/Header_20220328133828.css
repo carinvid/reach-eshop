@@ -45,37 +45,3 @@
     height: 22px !important;
     background-color:aqua;
 }
-
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-}
-.nav-item {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white
-}
-
-.nav-item-one {
-    font-size: 10px;
-}
-
-.nav-item-two {
-    font-size: 13px;
-    font-weight: 800;
-}
-
-.nav-itemBasket {
-    display: flex;
-    align-items: center;
-    color: white;
-    margin-right: 50px;
-    margin-left: 10px;
-}
-
-.nav-basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
-}

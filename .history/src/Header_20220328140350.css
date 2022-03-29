@@ -46,10 +46,6 @@
     background-color:aqua;
 }
 
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-}
 .nav-item {
     display: flex;
     flex-direction: column;
@@ -73,9 +69,4 @@
     color: white;
     margin-right: 50px;
     margin-left: 10px;
-}
-
-.nav-basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
 }
