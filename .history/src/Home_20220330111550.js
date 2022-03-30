@@ -14,7 +14,7 @@ function Home () {
                         id="12321341"
                         title="Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)"
                         price={11.96}
-                        rating={5}
+                        rating={45}
                         image="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg"
                         />
                         

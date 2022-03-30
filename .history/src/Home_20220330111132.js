@@ -14,7 +14,7 @@ function Home () {
                         id="12321341"
                         title="Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)"
                         price={11.96}
-                        rating={5}
+                        rating={45}
                         image="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg"
                         />
                         
@@ -50,15 +50,17 @@ function Home () {
                         rating={4}
                         image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
                         />
-                        
-                    </div>
-                    <div className="home-row">
                         <Product 
                         id="90829332"
                         title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
                         price={1094.98}
                         rating={4}
-                        image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"/>
+                        image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                    
+                        />
+                    </div>
+                    <div className="home-row">
+                        <Product />
                     </div>
             </div>
         </div>

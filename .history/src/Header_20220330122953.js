@@ -11,13 +11,10 @@ import {Link} from 'react-router-dom'
 function Header() {
     return (
         <div className="header">
-            <Link to="/" style={{ textDecoration: "none" }}>
-                <div className="header-logo">
-                    <StorefrontIcon className="header-log-image" fontSize="large"/>
-                    <h2 className='header-logoTitle'>eShop</h2>
-                </div>
-            </Link>     
-            
+            <div className="header-logo">
+                <StorefrontIcon className="header-log-image" fontSize="large"/>
+                <h2 className='header-logoTitle'>eShop</h2>
+            </div>
             <div className="header-search">
                 <input type="text" className="header-searchInput" />
                 <SearchIcon className='header-searchIcon' />

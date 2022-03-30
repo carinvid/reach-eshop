@@ -4,20 +4,16 @@ import "./Header.css"
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SearchIcon from '@material-ui/icons/Search';
-import {Link} from 'react-router-dom'
 
 
 
 function Header() {
     return (
         <div className="header">
-            <Link to="/" style={{ textDecoration: "none" }}>
-                <div className="header-logo">
-                    <StorefrontIcon className="header-log-image" fontSize="large"/>
-                    <h2 className='header-logoTitle'>eShop</h2>
-                </div>
-            </Link>     
-            
+            <div className="header-logo">
+                <StorefrontIcon className="header-log-image" fontSize="large"/>
+                <h2 className='header-logoTitle'>eShop</h2>
+            </div>
             <div className="header-search">
                 <input type="text" className="header-searchInput" />
                 <SearchIcon className='header-searchIcon' />
@@ -31,13 +27,11 @@ function Header() {
                     <span className="nav-item-one">Your</span>
                     <span className="nav-item-two">Shop</span>
                 </div>
-                <Link to="/checkout" style={{ textDecoration: "none" }}>
-                    <div className="nav-item">
-                        <ShoppingBasketIcon className="itemBasket" />
-                        <span className="nav-item-two nav-basketCount">0</span>
-                    </div> 
-                </Link>
-                
+    
+                <div className="nav-item">
+                    <ShoppingBasketIcon className="itemBasket" />
+                    <span className="nav-item-two nav-basketCount">0</span>
+                </div> 
             </div>
         </div>    
                    
