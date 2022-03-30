@@ -3,7 +3,7 @@ import './Product.css'
 
 function Product() {
     return (  
-        
+        <div>
             <div className="product">
                 <div className="product-info">
                     <p>Tittle</p>
@@ -16,7 +16,7 @@ function Product() {
                 <img src="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg" alt="red dress" />
                 <button>Add to Basket</button>
             </div>
-        
+        </div>
     );
 }
 
