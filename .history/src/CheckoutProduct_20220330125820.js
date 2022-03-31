@@ -1,14 +1,13 @@
 
 import React from "react";
 import "./CheckoutProduct.css";
-import "./Checkout";
 
 function CheckoutProduct() {
     return ( 
         
            <div className="checkoutProduct">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg" alt="image" className="checkoutProduct-image" />
-                <div className="checkoutProduct-info">
+                <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="image" className="checkoutProduct-image" />
+                <div className="product-info">
                     <p className="checkoutProduct-title">
                     Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)
                     </p>
