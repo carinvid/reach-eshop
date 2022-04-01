@@ -1,6 +1,6 @@
 import React from "react";
 import './Product.css'
-import { useStateValue } from './StateProvider';
+import { useStateValue } from './StateProvider'
 
 
 function Product({ id, title, image, price, rating }) {
@@ -15,9 +15,9 @@ function Product({ id, title, image, price, rating }) {
                 image: image,
                 price: price,
                 rating: rating
-            },
-        });
-    };
+            }
+        })
+    }
 
     return (  
         
@@ -37,7 +37,7 @@ function Product({ id, title, image, price, rating }) {
                         </div>
                 </div>
                 <img src={image} />
-                <button onClick = { addtoBasket }>Add to Basket</button>
+                <button type= "button" onClick = { addtoBasket }>Add to Basket</button>
                 
             </div>
         
