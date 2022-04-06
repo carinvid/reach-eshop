@@ -3,7 +3,6 @@ import './Login.css'
 import { Link, useHistory } from "react-router-dom";
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import { auth } from './firebase';
-import Signup from "./Signup";
 
 function Login() {
 
@@ -58,7 +57,7 @@ function Login() {
                     By signing-in you agree to the eShop Website Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
-                <button className='login-registerButton' onClick={Signup}>Create your eShop Account</button>
+                <button className='login-registerButton' onClick={signup}>Create your eShop Account</button>
                 </form>
             </div>
         </div>
