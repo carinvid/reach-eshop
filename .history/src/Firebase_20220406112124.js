@@ -1,10 +1,11 @@
 
-
-import firebase from 'firebase/compat/app';
+import { initializeApp } from "firebase/app";
+// import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import { firebaseConfig } from './firebase.config';
 
-const app = firebase.initializeApp( {
+const firebaseConfig= {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
     projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
@@ -12,11 +13,13 @@ const app = firebase.initializeApp( {
     messagingSenderId: process.env.REACT_APP_FIREBASE_MESSENGER_SENDER_ID,
     appId: process.env.REACT_APP_FIREBASE_APP_ID,
     
-  });
+  };
   
 
+  // const app = initializeApp(firebaseConfig);
 
+  firebase.initializeApp(firebaseConfig);
 
-export const auth = app.auth();
-export const database = firebase.firestore();
+export const auth = firebaseConfig.auth();
+
 export default app

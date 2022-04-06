@@ -5,7 +5,6 @@ import Home from "./Home";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import Checkout from './Checkout';
 import Login from './Login';
-import Signup from './Signup';
 
 function App() {
   return (
