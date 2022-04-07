@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import Checkout from './Checkout';
 import Login from './Login';
 import Signup from './Signup';
+import { AuthProvider} from "../context/AuthContext"
 
 function App() {
   return (
@@ -15,9 +16,11 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <AuthProvider>
           <Route path="/signup">
             <Signup />
           </Route>
+          </AuthProvider>
           <Route path="/checkout">
             <Header />
             <Checkout />

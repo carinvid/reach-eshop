@@ -34,11 +34,11 @@ export default function Signup() {
                     <button type="submit" className="signup-signupButton">Sign Up</button>
             </form>
         </div>
+        <p>Already have an account? Log In</p>
     </div>
+    
 
-    <div className="goToLogin">
-        Already have an account? Log In
-    </div>
+    
     </>
   )
 }
